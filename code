@@ -1,0 +1,3 @@
+Write-Host "Hello World"
+$mytemp = get-computerinfo
+Invoke-WebRequest -UseBasicParsing http://127.0.0.1 -ContentType "application/json" -Method POST -Body $mytemp
